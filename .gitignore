@@ -17,3 +17,6 @@ Thumbs.db
 
 data/raw/battery_dataset.zip
 data/raw/BatteryAgingARC-FY0804.zip
+
+data/raw/*.zip
+data/raw/
