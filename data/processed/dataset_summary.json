@@ -1,0 +1,52 @@
+{
+  "dataset_name": "NASA Ames Li-ion Battery Aging Dataset (Cells B0005, B0006, B0007, B0018)",
+  "source": "NASA Prognostics Center of Excellence (PCoE) & PHM Society Data Repository",
+  "license": "NASA Open Data / Public Domain",
+  "is_synthetic": false,
+  "total_usable_samples": 636,
+  "cells": [
+    "B0005",
+    "B0006",
+    "B0007",
+    "B0018"
+  ],
+  "samples_per_cell": {
+    "B0005": 168,
+    "B0006": 168,
+    "B0007": 168,
+    "B0018": 132
+  },
+  "nominal_capacity_ah": 2.0,
+  "eol_capacity_threshold_ah": 1.4,
+  "eol_soh_threshold_percent": 70.0,
+  "features": [
+    "cycle",
+    "voltage_mean",
+    "voltage_max",
+    "voltage_min",
+    "current_mean",
+    "temperature_mean",
+    "temperature_max",
+    "discharge_duration_s",
+    "internal_resistance_est",
+    "capacity"
+  ],
+  "targets": [
+    "soh_percent",
+    "rul_cycles",
+    "condition"
+  ],
+  "statistics": {
+    "capacity_min": 1.15382,
+    "capacity_max": 2.03534,
+    "soh_min": 57.69,
+    "soh_max": 101.77,
+    "rul_max": 182,
+    "cycle_max": 168
+  },
+  "limitations": [
+    "Data collected under controlled lab conditions at room temperature (24\u00b0C).",
+    "Accelerated 2A CC discharge cycling; real-world EV drive cycles exhibit variable dynamic regenerative current profiles.",
+    "End-of-life criteria is calibrated at 30% capacity fade (1.4 Ah) from 2.0 Ah rated 18650 cells."
+  ]
+}

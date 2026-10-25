@@ -1,0 +1,1190 @@
+[
+  {
+    "cycle": 1,
+    "actual_soh": 92.75,
+    "pred_soh": 92.46,
+    "actual_rul": 96,
+    "pred_rul": 98.0,
+    "actual_capacity": 1.855,
+    "temperature_mean": 31.77
+  },
+  {
+    "cycle": 2,
+    "actual_soh": 92.16,
+    "pred_soh": 92.42,
+    "actual_rul": 95,
+    "pred_rul": 100.3,
+    "actual_capacity": 1.8432,
+    "temperature_mean": 31.92
+  },
+  {
+    "cycle": 3,
+    "actual_soh": 91.98,
+    "pred_soh": 91.93,
+    "actual_rul": 94,
+    "pred_rul": 88.4,
+    "actual_capacity": 1.8396,
+    "temperature_mean": 31.32
+  },
+  {
+    "cycle": 4,
+    "actual_soh": 91.53,
+    "pred_soh": 91.75,
+    "actual_rul": 93,
+    "pred_rul": 89.1,
+    "actual_capacity": 1.8307,
+    "temperature_mean": 30.82
+  },
+  {
+    "cycle": 5,
+    "actual_soh": 91.64,
+    "pred_soh": 92.03,
+    "actual_rul": 92,
+    "pred_rul": 100.1,
+    "actual_capacity": 1.8327,
+    "temperature_mean": 31.95
+  },
+  {
+    "cycle": 6,
+    "actual_soh": 91.43,
+    "pred_soh": 92.02,
+    "actual_rul": 91,
+    "pred_rul": 100.1,
+    "actual_capacity": 1.8285,
+    "temperature_mean": 32.02
+  },
+  {
+    "cycle": 7,
+    "actual_soh": 91.06,
+    "pred_soh": 90.9,
+    "actual_rul": 90,
+    "pred_rul": 88.9,
+    "actual_capacity": 1.8212,
+    "temperature_mean": 31.63
+  },
+  {
+    "cycle": 8,
+    "actual_soh": 90.76,
+    "pred_soh": 91.23,
+    "actual_rul": 89,
+    "pred_rul": 85.6,
+    "actual_capacity": 1.8152,
+    "temperature_mean": 31.29
+  },
+  {
+    "cycle": 9,
+    "actual_soh": 90.21,
+    "pred_soh": 91.48,
+    "actual_rul": 88,
+    "pred_rul": 85.6,
+    "actual_capacity": 1.8043,
+    "temperature_mean": 31.11
+  },
+  {
+    "cycle": 10,
+    "actual_soh": 91.16,
+    "pred_soh": 91.49,
+    "actual_rul": 87,
+    "pred_rul": 85.4,
+    "actual_capacity": 1.8231,
+    "temperature_mean": 31.13
+  },
+  {
+    "cycle": 11,
+    "actual_soh": 90.61,
+    "pred_soh": 91.33,
+    "actual_rul": 86,
+    "pred_rul": 88.7,
+    "actual_capacity": 1.8121,
+    "temperature_mean": 31.51
+  },
+  {
+    "cycle": 12,
+    "actual_soh": 90.23,
+    "pred_soh": 91.03,
+    "actual_rul": 85,
+    "pred_rul": 87.4,
+    "actual_capacity": 1.8047,
+    "temperature_mean": 31.31
+  },
+  {
+    "cycle": 13,
+    "actual_soh": 89.54,
+    "pred_soh": 90.34,
+    "actual_rul": 84,
+    "pred_rul": 86.5,
+    "actual_capacity": 1.7908,
+    "temperature_mean": 30.89
+  },
+  {
+    "cycle": 14,
+    "actual_soh": 89.17,
+    "pred_soh": 90.39,
+    "actual_rul": 83,
+    "pred_rul": 86.3,
+    "actual_capacity": 1.7835,
+    "temperature_mean": 30.54
+  },
+  {
+    "cycle": 15,
+    "actual_soh": 89.05,
+    "pred_soh": 90.37,
+    "actual_rul": 82,
+    "pred_rul": 85.5,
+    "actual_capacity": 1.7809,
+    "temperature_mean": 30.83
+  },
+  {
+    "cycle": 16,
+    "actual_soh": 88.56,
+    "pred_soh": 89.88,
+    "actual_rul": 81,
+    "pred_rul": 90.8,
+    "actual_capacity": 1.7712,
+    "temperature_mean": 31.45
+  },
+  {
+    "cycle": 17,
+    "actual_soh": 88.43,
+    "pred_soh": 89.72,
+    "actual_rul": 80,
+    "pred_rul": 88.5,
+    "actual_capacity": 1.7686,
+    "temperature_mean": 31.52
+  },
+  {
+    "cycle": 18,
+    "actual_soh": 87.68,
+    "pred_soh": 89.29,
+    "actual_rul": 79,
+    "pred_rul": 85.5,
+    "actual_capacity": 1.7536,
+    "temperature_mean": 31.11
+  },
+  {
+    "cycle": 19,
+    "actual_soh": 87.31,
+    "pred_soh": 88.3,
+    "actual_rul": 78,
+    "pred_rul": 83.0,
+    "actual_capacity": 1.7462,
+    "temperature_mean": 30.59
+  },
+  {
+    "cycle": 20,
+    "actual_soh": 86.88,
+    "pred_soh": 88.28,
+    "actual_rul": 77,
+    "pred_rul": 85.5,
+    "actual_capacity": 1.7377,
+    "temperature_mean": 30.24
+  },
+  {
+    "cycle": 21,
+    "actual_soh": 86.58,
+    "pred_soh": 88.23,
+    "actual_rul": 76,
+    "pred_rul": 84.7,
+    "actual_capacity": 1.7315,
+    "temperature_mean": 30.1
+  },
+  {
+    "cycle": 22,
+    "actual_soh": 85.43,
+    "pred_soh": 87.1,
+    "actual_rul": 75,
+    "pred_rul": 84.2,
+    "actual_capacity": 1.7086,
+    "temperature_mean": 30.25
+  },
+  {
+    "cycle": 23,
+    "actual_soh": 85.57,
+    "pred_soh": 86.02,
+    "actual_rul": 74,
+    "pred_rul": 84.5,
+    "actual_capacity": 1.7115,
+    "temperature_mean": 30.21
+  },
+  {
+    "cycle": 24,
+    "actual_soh": 85.38,
+    "pred_soh": 85.91,
+    "actual_rul": 73,
+    "pred_rul": 84.6,
+    "actual_capacity": 1.7075,
+    "temperature_mean": 30.13
+  },
+  {
+    "cycle": 25,
+    "actual_soh": 87.46,
+    "pred_soh": 88.33,
+    "actual_rul": 72,
+    "pred_rul": 86.2,
+    "actual_capacity": 1.7492,
+    "temperature_mean": 30.22
+  },
+  {
+    "cycle": 26,
+    "actual_soh": 86.64,
+    "pred_soh": 88.28,
+    "actual_rul": 71,
+    "pred_rul": 84.6,
+    "actual_capacity": 1.7328,
+    "temperature_mean": 30.98
+  },
+  {
+    "cycle": 27,
+    "actual_soh": 86.11,
+    "pred_soh": 87.17,
+    "actual_rul": 70,
+    "pred_rul": 83.0,
+    "actual_capacity": 1.7222,
+    "temperature_mean": 31.42
+  },
+  {
+    "cycle": 28,
+    "actual_soh": 85.59,
+    "pred_soh": 87.22,
+    "actual_rul": 69,
+    "pred_rul": 81.6,
+    "actual_capacity": 1.7119,
+    "temperature_mean": 31.38
+  },
+  {
+    "cycle": 29,
+    "actual_soh": 84.96,
+    "pred_soh": 85.58,
+    "actual_rul": 68,
+    "pred_rul": 77.2,
+    "actual_capacity": 1.6993,
+    "temperature_mean": 31.17
+  },
+  {
+    "cycle": 30,
+    "actual_soh": 84.7,
+    "pred_soh": 85.34,
+    "actual_rul": 67,
+    "pred_rul": 75.2,
+    "actual_capacity": 1.694,
+    "temperature_mean": 30.99
+  },
+  {
+    "cycle": 31,
+    "actual_soh": 84.1,
+    "pred_soh": 84.23,
+    "actual_rul": 66,
+    "pred_rul": 73.9,
+    "actual_capacity": 1.6819,
+    "temperature_mean": 31.06
+  },
+  {
+    "cycle": 32,
+    "actual_soh": 83.85,
+    "pred_soh": 83.61,
+    "actual_rul": 65,
+    "pred_rul": 75.5,
+    "actual_capacity": 1.677,
+    "temperature_mean": 31.37
+  },
+  {
+    "cycle": 33,
+    "actual_soh": 83.28,
+    "pred_soh": 83.56,
+    "actual_rul": 64,
+    "pred_rul": 78.3,
+    "actual_capacity": 1.6655,
+    "temperature_mean": 31.56
+  },
+  {
+    "cycle": 34,
+    "actual_soh": 82.86,
+    "pred_soh": 83.31,
+    "actual_rul": 63,
+    "pred_rul": 70.7,
+    "actual_capacity": 1.6572,
+    "temperature_mean": 31.32
+  },
+  {
+    "cycle": 35,
+    "actual_soh": 82.41,
+    "pred_soh": 83.34,
+    "actual_rul": 62,
+    "pred_rul": 69.7,
+    "actual_capacity": 1.6482,
+    "temperature_mean": 31.1
+  },
+  {
+    "cycle": 36,
+    "actual_soh": 81.94,
+    "pred_soh": 83.27,
+    "actual_rul": 61,
+    "pred_rul": 63.3,
+    "actual_capacity": 1.6388,
+    "temperature_mean": 30.99
+  },
+  {
+    "cycle": 37,
+    "actual_soh": 81.38,
+    "pred_soh": 81.97,
+    "actual_rul": 60,
+    "pred_rul": 68.2,
+    "actual_capacity": 1.6277,
+    "temperature_mean": 30.97
+  },
+  {
+    "cycle": 38,
+    "actual_soh": 81.11,
+    "pred_soh": 81.87,
+    "actual_rul": 59,
+    "pred_rul": 65.6,
+    "actual_capacity": 1.6221,
+    "temperature_mean": 31.29
+  },
+  {
+    "cycle": 39,
+    "actual_soh": 80.7,
+    "pred_soh": 81.28,
+    "actual_rul": 58,
+    "pred_rul": 63.0,
+    "actual_capacity": 1.614,
+    "temperature_mean": 31.41
+  },
+  {
+    "cycle": 40,
+    "actual_soh": 83.8,
+    "pred_soh": 83.43,
+    "actual_rul": 57,
+    "pred_rul": 64.4,
+    "actual_capacity": 1.6761,
+    "temperature_mean": 30.76
+  },
+  {
+    "cycle": 41,
+    "actual_soh": 82.47,
+    "pred_soh": 82.13,
+    "actual_rul": 56,
+    "pred_rul": 60.2,
+    "actual_capacity": 1.6493,
+    "temperature_mean": 30.98
+  },
+  {
+    "cycle": 42,
+    "actual_soh": 81.62,
+    "pred_soh": 82.06,
+    "actual_rul": 55,
+    "pred_rul": 54.8,
+    "actual_capacity": 1.6324,
+    "temperature_mean": 30.8
+  },
+  {
+    "cycle": 43,
+    "actual_soh": 80.82,
+    "pred_soh": 81.65,
+    "actual_rul": 54,
+    "pred_rul": 49.7,
+    "actual_capacity": 1.6164,
+    "temperature_mean": 30.62
+  },
+  {
+    "cycle": 44,
+    "actual_soh": 80.55,
+    "pred_soh": 81.06,
+    "actual_rul": 53,
+    "pred_rul": 50.4,
+    "actual_capacity": 1.6109,
+    "temperature_mean": 30.4
+  },
+  {
+    "cycle": 45,
+    "actual_soh": 79.77,
+    "pred_soh": 81.01,
+    "actual_rul": 52,
+    "pred_rul": 48.4,
+    "actual_capacity": 1.5955,
+    "temperature_mean": 30.38
+  },
+  {
+    "cycle": 46,
+    "actual_soh": 86.34,
+    "pred_soh": 86.92,
+    "actual_rul": 51,
+    "pred_rul": 69.9,
+    "actual_capacity": 1.7267,
+    "temperature_mean": 30.58
+  },
+  {
+    "cycle": 47,
+    "actual_soh": 85.83,
+    "pred_soh": 85.85,
+    "actual_rul": 50,
+    "pred_rul": 67.7,
+    "actual_capacity": 1.7166,
+    "temperature_mean": 30.71
+  },
+  {
+    "cycle": 48,
+    "actual_soh": 84.79,
+    "pred_soh": 84.12,
+    "actual_rul": 49,
+    "pred_rul": 60.3,
+    "actual_capacity": 1.6958,
+    "temperature_mean": 30.63
+  },
+  {
+    "cycle": 49,
+    "actual_soh": 83.89,
+    "pred_soh": 83.6,
+    "actual_rul": 48,
+    "pred_rul": 61.2,
+    "actual_capacity": 1.6778,
+    "temperature_mean": 30.6
+  },
+  {
+    "cycle": 50,
+    "actual_soh": 83.03,
+    "pred_soh": 82.72,
+    "actual_rul": 47,
+    "pred_rul": 52.7,
+    "actual_capacity": 1.6607,
+    "temperature_mean": 30.53
+  },
+  {
+    "cycle": 51,
+    "actual_soh": 83.32,
+    "pred_soh": 83.13,
+    "actual_rul": 46,
+    "pred_rul": 53.7,
+    "actual_capacity": 1.6664,
+    "temperature_mean": 31.2
+  },
+  {
+    "cycle": 52,
+    "actual_soh": 82.34,
+    "pred_soh": 82.88,
+    "actual_rul": 45,
+    "pred_rul": 54.8,
+    "actual_capacity": 1.6468,
+    "temperature_mean": 31.17
+  },
+  {
+    "cycle": 53,
+    "actual_soh": 81.29,
+    "pred_soh": 81.72,
+    "actual_rul": 44,
+    "pred_rul": 48.1,
+    "actual_capacity": 1.6258,
+    "temperature_mean": 30.97
+  },
+  {
+    "cycle": 54,
+    "actual_soh": 80.61,
+    "pred_soh": 81.28,
+    "actual_rul": 43,
+    "pred_rul": 48.8,
+    "actual_capacity": 1.6122,
+    "temperature_mean": 30.82
+  },
+  {
+    "cycle": 55,
+    "actual_soh": 80.29,
+    "pred_soh": 81.35,
+    "actual_rul": 42,
+    "pred_rul": 43.3,
+    "actual_capacity": 1.6057,
+    "temperature_mean": 30.77
+  },
+  {
+    "cycle": 56,
+    "actual_soh": 83.68,
+    "pred_soh": 82.95,
+    "actual_rul": 41,
+    "pred_rul": 53.1,
+    "actual_capacity": 1.6737,
+    "temperature_mean": 30.81
+  },
+  {
+    "cycle": 57,
+    "actual_soh": 82.02,
+    "pred_soh": 82.42,
+    "actual_rul": 40,
+    "pred_rul": 52.9,
+    "actual_capacity": 1.6404,
+    "temperature_mean": 31.04
+  },
+  {
+    "cycle": 58,
+    "actual_soh": 80.66,
+    "pred_soh": 81.05,
+    "actual_rul": 39,
+    "pred_rul": 48.4,
+    "actual_capacity": 1.6133,
+    "temperature_mean": 31.04
+  },
+  {
+    "cycle": 59,
+    "actual_soh": 79.6,
+    "pred_soh": 78.9,
+    "actual_rul": 38,
+    "pred_rul": 43.2,
+    "actual_capacity": 1.5921,
+    "temperature_mean": 30.96
+  },
+  {
+    "cycle": 60,
+    "actual_soh": 79.33,
+    "pred_soh": 78.12,
+    "actual_rul": 37,
+    "pred_rul": 41.4,
+    "actual_capacity": 1.5866,
+    "temperature_mean": 30.84
+  },
+  {
+    "cycle": 61,
+    "actual_soh": 79.0,
+    "pred_soh": 78.03,
+    "actual_rul": 36,
+    "pred_rul": 41.4,
+    "actual_capacity": 1.5801,
+    "temperature_mean": 30.8
+  },
+  {
+    "cycle": 62,
+    "actual_soh": 78.21,
+    "pred_soh": 77.74,
+    "actual_rul": 35,
+    "pred_rul": 44.9,
+    "actual_capacity": 1.5642,
+    "temperature_mean": 30.98
+  },
+  {
+    "cycle": 63,
+    "actual_soh": 77.78,
+    "pred_soh": 77.18,
+    "actual_rul": 34,
+    "pred_rul": 44.0,
+    "actual_capacity": 1.5556,
+    "temperature_mean": 30.97
+  },
+  {
+    "cycle": 64,
+    "actual_soh": 77.01,
+    "pred_soh": 76.69,
+    "actual_rul": 33,
+    "pred_rul": 43.5,
+    "actual_capacity": 1.5402,
+    "temperature_mean": 30.98
+  },
+  {
+    "cycle": 65,
+    "actual_soh": 76.61,
+    "pred_soh": 75.79,
+    "actual_rul": 32,
+    "pred_rul": 42.7,
+    "actual_capacity": 1.5322,
+    "temperature_mean": 30.9
+  },
+  {
+    "cycle": 66,
+    "actual_soh": 76.58,
+    "pred_soh": 74.66,
+    "actual_rul": 31,
+    "pred_rul": 43.3,
+    "actual_capacity": 1.5316,
+    "temperature_mean": 30.82
+  },
+  {
+    "cycle": 67,
+    "actual_soh": 76.11,
+    "pred_soh": 74.26,
+    "actual_rul": 30,
+    "pred_rul": 43.0,
+    "actual_capacity": 1.5223,
+    "temperature_mean": 30.73
+  },
+  {
+    "cycle": 68,
+    "actual_soh": 75.33,
+    "pred_soh": 74.24,
+    "actual_rul": 29,
+    "pred_rul": 42.5,
+    "actual_capacity": 1.5065,
+    "temperature_mean": 30.77
+  },
+  {
+    "cycle": 69,
+    "actual_soh": 75.07,
+    "pred_soh": 74.09,
+    "actual_rul": 28,
+    "pred_rul": 41.8,
+    "actual_capacity": 1.5014,
+    "temperature_mean": 30.78
+  },
+  {
+    "cycle": 70,
+    "actual_soh": 74.82,
+    "pred_soh": 74.05,
+    "actual_rul": 27,
+    "pred_rul": 42.5,
+    "actual_capacity": 1.4964,
+    "temperature_mean": 30.76
+  },
+  {
+    "cycle": 71,
+    "actual_soh": 76.67,
+    "pred_soh": 74.65,
+    "actual_rul": 26,
+    "pred_rul": 42.1,
+    "actual_capacity": 1.5334,
+    "temperature_mean": 30.91
+  },
+  {
+    "cycle": 72,
+    "actual_soh": 76.19,
+    "pred_soh": 74.31,
+    "actual_rul": 25,
+    "pred_rul": 41.4,
+    "actual_capacity": 1.5238,
+    "temperature_mean": 31.23
+  },
+  {
+    "cycle": 73,
+    "actual_soh": 75.06,
+    "pred_soh": 74.12,
+    "actual_rul": 24,
+    "pred_rul": 40.8,
+    "actual_capacity": 1.5012,
+    "temperature_mean": 31.26
+  },
+  {
+    "cycle": 74,
+    "actual_soh": 74.62,
+    "pred_soh": 74.12,
+    "actual_rul": 23,
+    "pred_rul": 40.2,
+    "actual_capacity": 1.4924,
+    "temperature_mean": 31.18
+  },
+  {
+    "cycle": 75,
+    "actual_soh": 74.17,
+    "pred_soh": 73.98,
+    "actual_rul": 22,
+    "pred_rul": 40.1,
+    "actual_capacity": 1.4833,
+    "temperature_mean": 31.0
+  },
+  {
+    "cycle": 76,
+    "actual_soh": 74.04,
+    "pred_soh": 73.9,
+    "actual_rul": 21,
+    "pred_rul": 40.6,
+    "actual_capacity": 1.4807,
+    "temperature_mean": 30.98
+  },
+  {
+    "cycle": 77,
+    "actual_soh": 73.68,
+    "pred_soh": 73.88,
+    "actual_rul": 20,
+    "pred_rul": 39.5,
+    "actual_capacity": 1.4735,
+    "temperature_mean": 31.09
+  },
+  {
+    "cycle": 78,
+    "actual_soh": 73.4,
+    "pred_soh": 73.81,
+    "actual_rul": 19,
+    "pred_rul": 40.0,
+    "actual_capacity": 1.468,
+    "temperature_mean": 31.34
+  },
+  {
+    "cycle": 79,
+    "actual_soh": 72.9,
+    "pred_soh": 73.81,
+    "actual_rul": 18,
+    "pred_rul": 38.3,
+    "actual_capacity": 1.4581,
+    "temperature_mean": 31.23
+  },
+  {
+    "cycle": 80,
+    "actual_soh": 72.39,
+    "pred_soh": 73.83,
+    "actual_rul": 17,
+    "pred_rul": 37.7,
+    "actual_capacity": 1.4479,
+    "temperature_mean": 31.04
+  },
+  {
+    "cycle": 81,
+    "actual_soh": 72.64,
+    "pred_soh": 73.74,
+    "actual_rul": 16,
+    "pred_rul": 37.3,
+    "actual_capacity": 1.4528,
+    "temperature_mean": 30.81
+  },
+  {
+    "cycle": 82,
+    "actual_soh": 72.13,
+    "pred_soh": 73.82,
+    "actual_rul": 15,
+    "pred_rul": 37.0,
+    "actual_capacity": 1.4425,
+    "temperature_mean": 30.93
+  },
+  {
+    "cycle": 83,
+    "actual_soh": 71.96,
+    "pred_soh": 73.85,
+    "actual_rul": 14,
+    "pred_rul": 37.0,
+    "actual_capacity": 1.4393,
+    "temperature_mean": 31.22
+  },
+  {
+    "cycle": 84,
+    "actual_soh": 71.43,
+    "pred_soh": 73.85,
+    "actual_rul": 13,
+    "pred_rul": 37.0,
+    "actual_capacity": 1.4286,
+    "temperature_mean": 31.4
+  },
+  {
+    "cycle": 85,
+    "actual_soh": 71.25,
+    "pred_soh": 73.87,
+    "actual_rul": 12,
+    "pred_rul": 36.6,
+    "actual_capacity": 1.4249,
+    "temperature_mean": 31.26
+  },
+  {
+    "cycle": 86,
+    "actual_soh": 73.49,
+    "pred_soh": 73.91,
+    "actual_rul": 11,
+    "pred_rul": 39.1,
+    "actual_capacity": 1.4698,
+    "temperature_mean": 31.13
+  },
+  {
+    "cycle": 87,
+    "actual_soh": 72.63,
+    "pred_soh": 73.78,
+    "actual_rul": 10,
+    "pred_rul": 37.8,
+    "actual_capacity": 1.4526,
+    "temperature_mean": 31.25
+  },
+  {
+    "cycle": 88,
+    "actual_soh": 72.14,
+    "pred_soh": 73.85,
+    "actual_rul": 9,
+    "pred_rul": 36.8,
+    "actual_capacity": 1.4428,
+    "temperature_mean": 31.03
+  },
+  {
+    "cycle": 89,
+    "actual_soh": 71.42,
+    "pred_soh": 73.74,
+    "actual_rul": 8,
+    "pred_rul": 37.2,
+    "actual_capacity": 1.4284,
+    "temperature_mean": 30.93
+  },
+  {
+    "cycle": 90,
+    "actual_soh": 70.77,
+    "pred_soh": 73.67,
+    "actual_rul": 7,
+    "pred_rul": 28.4,
+    "actual_capacity": 1.4155,
+    "temperature_mean": 30.67
+  },
+  {
+    "cycle": 91,
+    "actual_soh": 72.73,
+    "pred_soh": 73.87,
+    "actual_rul": 6,
+    "pred_rul": 29.6,
+    "actual_capacity": 1.4546,
+    "temperature_mean": 31.23
+  },
+  {
+    "cycle": 92,
+    "actual_soh": 71.42,
+    "pred_soh": 73.84,
+    "actual_rul": 5,
+    "pred_rul": 30.1,
+    "actual_capacity": 1.4283,
+    "temperature_mean": 31.39
+  },
+  {
+    "cycle": 93,
+    "actual_soh": 70.99,
+    "pred_soh": 73.52,
+    "actual_rul": 4,
+    "pred_rul": 29.4,
+    "actual_capacity": 1.4197,
+    "temperature_mean": 31.51
+  },
+  {
+    "cycle": 94,
+    "actual_soh": 70.78,
+    "pred_soh": 73.48,
+    "actual_rul": 3,
+    "pred_rul": 28.9,
+    "actual_capacity": 1.4156,
+    "temperature_mean": 31.55
+  },
+  {
+    "cycle": 95,
+    "actual_soh": 70.28,
+    "pred_soh": 73.1,
+    "actual_rul": 2,
+    "pred_rul": 29.7,
+    "actual_capacity": 1.4057,
+    "temperature_mean": 31.39
+  },
+  {
+    "cycle": 96,
+    "actual_soh": 70.42,
+    "pred_soh": 72.71,
+    "actual_rul": 1,
+    "pred_rul": 30.2,
+    "actual_capacity": 1.4084,
+    "temperature_mean": 31.39
+  },
+  {
+    "cycle": 97,
+    "actual_soh": 69.84,
+    "pred_soh": 72.41,
+    "actual_rul": 0,
+    "pred_rul": 28.8,
+    "actual_capacity": 1.3968,
+    "temperature_mean": 31.42
+  },
+  {
+    "cycle": 98,
+    "actual_soh": 69.68,
+    "pred_soh": 72.46,
+    "actual_rul": 0,
+    "pred_rul": 28.2,
+    "actual_capacity": 1.3936,
+    "temperature_mean": 31.44
+  },
+  {
+    "cycle": 99,
+    "actual_soh": 69.47,
+    "pred_soh": 72.33,
+    "actual_rul": 0,
+    "pred_rul": 27.1,
+    "actual_capacity": 1.3894,
+    "temperature_mean": 31.54
+  },
+  {
+    "cycle": 100,
+    "actual_soh": 68.93,
+    "pred_soh": 71.93,
+    "actual_rul": 0,
+    "pred_rul": 28.4,
+    "actual_capacity": 1.3786,
+    "temperature_mean": 31.53
+  },
+  {
+    "cycle": 101,
+    "actual_soh": 69.25,
+    "pred_soh": 71.97,
+    "actual_rul": 0,
+    "pred_rul": 27.4,
+    "actual_capacity": 1.3849,
+    "temperature_mean": 31.44
+  },
+  {
+    "cycle": 102,
+    "actual_soh": 68.52,
+    "pred_soh": 71.89,
+    "actual_rul": 0,
+    "pred_rul": 28.2,
+    "actual_capacity": 1.3703,
+    "temperature_mean": 31.48
+  },
+  {
+    "cycle": 103,
+    "actual_soh": 68.67,
+    "pred_soh": 71.84,
+    "actual_rul": 0,
+    "pred_rul": 23.8,
+    "actual_capacity": 1.3734,
+    "temperature_mean": 31.58
+  },
+  {
+    "cycle": 104,
+    "actual_soh": 68.4,
+    "pred_soh": 71.7,
+    "actual_rul": 0,
+    "pred_rul": 22.7,
+    "actual_capacity": 1.3679,
+    "temperature_mean": 31.65
+  },
+  {
+    "cycle": 105,
+    "actual_soh": 67.84,
+    "pred_soh": 71.71,
+    "actual_rul": 0,
+    "pred_rul": 23.0,
+    "actual_capacity": 1.3567,
+    "temperature_mean": 31.66
+  },
+  {
+    "cycle": 106,
+    "actual_soh": 73.02,
+    "pred_soh": 73.2,
+    "actual_rul": 0,
+    "pred_rul": 30.5,
+    "actual_capacity": 1.4604,
+    "temperature_mean": 30.43
+  },
+  {
+    "cycle": 107,
+    "actual_soh": 72.5,
+    "pred_soh": 73.32,
+    "actual_rul": 0,
+    "pred_rul": 30.4,
+    "actual_capacity": 1.4501,
+    "temperature_mean": 31.02
+  },
+  {
+    "cycle": 108,
+    "actual_soh": 71.91,
+    "pred_soh": 73.32,
+    "actual_rul": 0,
+    "pred_rul": 30.4,
+    "actual_capacity": 1.4381,
+    "temperature_mean": 31.39
+  },
+  {
+    "cycle": 109,
+    "actual_soh": 71.42,
+    "pred_soh": 73.35,
+    "actual_rul": 0,
+    "pred_rul": 28.8,
+    "actual_capacity": 1.4284,
+    "temperature_mean": 31.25
+  },
+  {
+    "cycle": 110,
+    "actual_soh": 70.74,
+    "pred_soh": 72.95,
+    "actual_rul": 0,
+    "pred_rul": 28.8,
+    "actual_capacity": 1.4148,
+    "temperature_mean": 31.05
+  },
+  {
+    "cycle": 111,
+    "actual_soh": 70.69,
+    "pred_soh": 72.87,
+    "actual_rul": 0,
+    "pred_rul": 28.8,
+    "actual_capacity": 1.4139,
+    "temperature_mean": 30.89
+  },
+  {
+    "cycle": 112,
+    "actual_soh": 69.95,
+    "pred_soh": 72.51,
+    "actual_rul": 0,
+    "pred_rul": 28.3,
+    "actual_capacity": 1.3989,
+    "temperature_mean": 31.05
+  },
+  {
+    "cycle": 113,
+    "actual_soh": 69.77,
+    "pred_soh": 72.29,
+    "actual_rul": 0,
+    "pred_rul": 27.9,
+    "actual_capacity": 1.3953,
+    "temperature_mean": 31.49
+  },
+  {
+    "cycle": 114,
+    "actual_soh": 69.5,
+    "pred_soh": 72.12,
+    "actual_rul": 0,
+    "pred_rul": 28.7,
+    "actual_capacity": 1.3901,
+    "temperature_mean": 31.94
+  },
+  {
+    "cycle": 115,
+    "actual_soh": 69.3,
+    "pred_soh": 71.95,
+    "actual_rul": 0,
+    "pred_rul": 25.9,
+    "actual_capacity": 1.386,
+    "temperature_mean": 31.75
+  },
+  {
+    "cycle": 116,
+    "actual_soh": 69.41,
+    "pred_soh": 71.85,
+    "actual_rul": 0,
+    "pred_rul": 29.4,
+    "actual_capacity": 1.3882,
+    "temperature_mean": 31.31
+  },
+  {
+    "cycle": 117,
+    "actual_soh": 68.81,
+    "pred_soh": 71.81,
+    "actual_rul": 0,
+    "pred_rul": 27.7,
+    "actual_capacity": 1.3762,
+    "temperature_mean": 31.13
+  },
+  {
+    "cycle": 118,
+    "actual_soh": 68.24,
+    "pred_soh": 71.78,
+    "actual_rul": 0,
+    "pred_rul": 28.3,
+    "actual_capacity": 1.3647,
+    "temperature_mean": 30.99
+  },
+  {
+    "cycle": 119,
+    "actual_soh": 67.95,
+    "pred_soh": 71.83,
+    "actual_rul": 0,
+    "pred_rul": 27.8,
+    "actual_capacity": 1.359,
+    "temperature_mean": 30.9
+  },
+  {
+    "cycle": 120,
+    "actual_soh": 67.31,
+    "pred_soh": 71.75,
+    "actual_rul": 0,
+    "pred_rul": 25.8,
+    "actual_capacity": 1.3462,
+    "temperature_mean": 30.71
+  },
+  {
+    "cycle": 121,
+    "actual_soh": 71.34,
+    "pred_soh": 72.73,
+    "actual_rul": 0,
+    "pred_rul": 29.3,
+    "actual_capacity": 1.4268,
+    "temperature_mean": 30.47
+  },
+  {
+    "cycle": 122,
+    "actual_soh": 70.32,
+    "pred_soh": 72.56,
+    "actual_rul": 0,
+    "pred_rul": 28.7,
+    "actual_capacity": 1.4064,
+    "temperature_mean": 30.94
+  },
+  {
+    "cycle": 123,
+    "actual_soh": 69.67,
+    "pred_soh": 72.07,
+    "actual_rul": 0,
+    "pred_rul": 28.1,
+    "actual_capacity": 1.3935,
+    "temperature_mean": 31.11
+  },
+  {
+    "cycle": 124,
+    "actual_soh": 69.41,
+    "pred_soh": 71.89,
+    "actual_rul": 0,
+    "pred_rul": 27.7,
+    "actual_capacity": 1.3882,
+    "temperature_mean": 31.04
+  },
+  {
+    "cycle": 125,
+    "actual_soh": 68.51,
+    "pred_soh": 71.74,
+    "actual_rul": 0,
+    "pred_rul": 28.2,
+    "actual_capacity": 1.3702,
+    "temperature_mean": 30.97
+  },
+  {
+    "cycle": 126,
+    "actual_soh": 68.98,
+    "pred_soh": 71.78,
+    "actual_rul": 0,
+    "pred_rul": 27.7,
+    "actual_capacity": 1.3797,
+    "temperature_mean": 30.94
+  },
+  {
+    "cycle": 127,
+    "actual_soh": 68.43,
+    "pred_soh": 71.78,
+    "actual_rul": 0,
+    "pred_rul": 28.4,
+    "actual_capacity": 1.3687,
+    "temperature_mean": 31.3
+  },
+  {
+    "cycle": 128,
+    "actual_soh": 68.14,
+    "pred_soh": 71.84,
+    "actual_rul": 0,
+    "pred_rul": 27.3,
+    "actual_capacity": 1.3627,
+    "temperature_mean": 31.82
+  },
+  {
+    "cycle": 129,
+    "actual_soh": 68.17,
+    "pred_soh": 71.74,
+    "actual_rul": 0,
+    "pred_rul": 22.4,
+    "actual_capacity": 1.3634,
+    "temperature_mean": 32.0
+  },
+  {
+    "cycle": 130,
+    "actual_soh": 67.59,
+    "pred_soh": 71.65,
+    "actual_rul": 0,
+    "pred_rul": 21.4,
+    "actual_capacity": 1.3519,
+    "temperature_mean": 31.74
+  },
+  {
+    "cycle": 131,
+    "actual_soh": 67.74,
+    "pred_soh": 71.88,
+    "actual_rul": 0,
+    "pred_rul": 28.3,
+    "actual_capacity": 1.3548,
+    "temperature_mean": 31.53
+  },
+  {
+    "cycle": 132,
+    "actual_soh": 67.05,
+    "pred_soh": 71.81,
+    "actual_rul": 0,
+    "pred_rul": 22.3,
+    "actual_capacity": 1.3411,
+    "temperature_mean": 31.28
+  }
+]

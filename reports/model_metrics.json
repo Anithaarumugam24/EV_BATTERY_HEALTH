@@ -1,0 +1,44 @@
+{
+  "soh": {
+    "RandomForest": {
+      "MAE": 2.2061,
+      "RMSE": 2.6727,
+      "R2": 0.88
+    },
+    "GradientBoosting": {
+      "MAE": 1.4865,
+      "RMSE": 1.8724,
+      "R2": 0.9411
+    }
+  },
+  "rul": {
+    "RandomForest": {
+      "MAE": 18.0033,
+      "RMSE": 22.0206,
+      "R2": 0.5269
+    },
+    "GradientBoosting": {
+      "MAE": 16.1352,
+      "RMSE": 18.8141,
+      "R2": 0.6547
+    }
+  },
+  "cv_scores": {
+    "soh_5fold_rf_r2_mean": 0.9983,
+    "soh_5fold_rf_r2_std": 0.0005
+  },
+  "feature_importances_soh": {
+    "cycle": 0.0671,
+    "voltage_mean": 0.0015,
+    "voltage_min": 0.0018,
+    "current_mean": 0.161,
+    "temperature_mean": 0.0002,
+    "temperature_max": 0.0015,
+    "discharge_duration_s": 0.7341,
+    "internal_resistance_est": 0.0327
+  },
+  "selected_models": {
+    "soh_primary": "GradientBoosting",
+    "rul_primary": "GradientBoosting"
+  }
+}
