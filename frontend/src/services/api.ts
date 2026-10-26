@@ -7,7 +7,7 @@ import {
   AnalyticsData 
 } from '../types';
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+const API_BASE_URL = '/api';
 
 export async function fetchHealth(): Promise<{ status: string; model_loaded: boolean; dataset_ready: boolean }> {
   const res = await fetch(`${API_BASE_URL}/health`);
