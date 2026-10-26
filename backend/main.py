@@ -8,7 +8,7 @@ import json
 from typing import List, Dict, Any, Optional
 from fastapi import FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
-import pandas as pd
+import csv
 
 from database import init_db, save_prediction, get_predictions, clear_predictions
 from predict import BatteryTelemetryInput, PredictionResponse, get_prediction_service
@@ -83,25 +83,29 @@ def get_analytics():
     if not os.path.exists(BATTERY_FEATURES_CSV):
         raise HTTPException(status_code=404, detail="Processed dataset not found.")
 
-    df = pd.read_csv(BATTERY_FEATURES_CSV)
-    
+    with open(BATTERY_FEATURES_CSV, newline="") as f:
+        all_rows = list(csv.DictReader(f))
+
     # 1. Capacity degradation trajectory by cell
     cells_data = {}
     for cell_id in ["B0005", "B0006", "B0007", "B0018"]:
-        sub = df[df["battery_id"] == cell_id].sort_values("cycle")
+        sub = sorted(
+            (r for r in all_rows if r["battery_id"] == cell_id),
+            key=lambda r: int(float(r["cycle"]))
+        )
         # Subsample if too dense to keep API snappy
         step = max(1, len(sub) // 40)
-        sub_sample = sub.iloc[::step]
-        
+        sub_sample = sub[::step]
+
         cells_data[cell_id] = [
             {
-                "cycle": int(row["cycle"]),
+                "cycle": int(float(row["cycle"])),
                 "capacity": round(float(row["capacity"]), 4),
                 "soh": round(float(row["soh_percent"]), 2),
                 "temp": round(float(row["temperature_mean"]), 1),
                 "voltage": round(float(row["voltage_mean"]), 3)
             }
-            for _, row in sub_sample.iterrows()
+            for row in sub_sample
         ]
 
     # 2. Actual vs Predicted on held-out test cell B0018
