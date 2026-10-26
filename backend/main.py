@@ -8,6 +8,8 @@ import json
 from typing import List, Dict, Any, Optional
 from fastapi import FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 import csv
 
 from database import init_db, save_prediction, get_predictions, clear_predictions
@@ -37,8 +39,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+FRONTEND_DIST = os.path.join(BASE_DIR, "frontend", "dist")
+SERVE_FRONTEND = os.path.isfile(os.path.join(FRONTEND_DIST, "index.html"))
+
 @app.get("/")
 def root():
+    if SERVE_FRONTEND:
+        return FileResponse(os.path.join(FRONTEND_DIST, "index.html"))
     return {
         "app": "EV Battery Health & Life Prediction AI",
         "tagline": "Predict Battery Health. Estimate Remaining Life. Drive Smarter.",
@@ -159,6 +166,19 @@ def get_history(limit: int = 50):
 def clear_history():
     clear_predictions()
     return {"status": "cleared", "message": "Prediction history successfully cleared."}
+
+# Serve the built React app (only when frontend/dist exists, e.g. in the Docker/Render deployment)
+if SERVE_FRONTEND:
+    app.mount("/assets", StaticFiles(directory=os.path.join(FRONTEND_DIST, "assets")), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    def spa_fallback(full_path: str):
+        if full_path.startswith("api/"):
+            raise HTTPException(status_code=404, detail="Not found")
+        candidate = os.path.join(FRONTEND_DIST, full_path)
+        if full_path and os.path.isfile(candidate):
+            return FileResponse(candidate)
+        return FileResponse(os.path.join(FRONTEND_DIST, "index.html"))
 
 if __name__ == "__main__":
     import uvicorn
