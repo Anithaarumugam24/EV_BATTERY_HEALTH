@@ -1,0 +1,9 @@
+node_modules
+**/node_modules
+frontend/dist
+.git
+__pycache__
+*.pyc
+*.db
+data/raw
+ 
