@@ -3,7 +3,8 @@
   "outputDirectory": "frontend/dist",
   "functions": {
     "api/index.py": {
-      "includeFiles": "{backend,models,data,reports}/**"
+      "includeFiles": "{backend,models,data,reports}/**",
+      "excludeFiles": "{frontend/**,node_modules/**,.git/**}"
     }
   },
   "rewrites": [
