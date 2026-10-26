@@ -9,8 +9,10 @@ from datetime import datetime
 from typing import List, Dict, Any, Optional
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DB_PATH = os.path.join(BASE_DIR, "data", "predictions.db")
-
+if os.environ.get("VERCEL"):
+    DB_PATH = "/tmp/predictions.db"
+else:
+    DB_PATH = os.path.join(BASE_DIR, "data", "predictions.db")
 def get_connection() -> sqlite3.Connection:
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
